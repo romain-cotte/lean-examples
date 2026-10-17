@@ -1,0 +1,14 @@
+name = "lake-examples"
+version = "0.1.0"
+defaultTargets = ["lake-examples"]
+
+[[lean_lib]]
+name = "LakeExamples"
+
+[[lean_exe]]
+name = "lake-examples"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
